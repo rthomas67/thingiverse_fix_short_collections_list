@@ -11,7 +11,7 @@
 // ==/UserScript==
 
 const KEY_PREFIX="thingiverse_collection_";
-const FORCE_REPLACE=true;
+const FORCE_REPLACE=false;
 
 /*
  * retrieves the id from the collection detail page using XHR, and stores an object
