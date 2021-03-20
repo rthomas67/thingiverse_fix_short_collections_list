@@ -4,8 +4,9 @@
 // @version      0.1
 // @description  try to take over the world!
 // @author       Annoyed Thingiverse User
-// @require      http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
+// @require      http://cdn.thingiverse.com/site/js/jquery-3.2.1.min.js
 // @require      https://gist.github.com/raw/2625891/waitForKeyElements.js
+// @exclude      https://www.thingiverse.com/**/collections/*
 // @match        https://www.thingiverse.com/**/collections
 // @grant        none
 // ==/UserScript==
