@@ -27,7 +27,7 @@ function completeTheCollectionSelectionList() {
         for (const localStorageKey in localStorage) {
             if (localStorageKey.startsWith(KEY_PREFIX)) {
                 collectionInfoObjects[collectionInfoObjects.length] = JSON.parse(localStorage.getItem(localStorageKey));
-                console.log("CHECK :: " + collectionInfoObjects[collectionInfoObjects.length-1].labelName);
+                // console.log("CHECK :: " + collectionInfoObjects[collectionInfoObjects.length-1].labelName);
             }
         }
         // stuff the extra elements in any of the select lists found on the page.

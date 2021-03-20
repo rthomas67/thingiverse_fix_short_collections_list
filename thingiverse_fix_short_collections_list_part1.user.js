@@ -78,14 +78,6 @@ function findTheCollectionReferences() {
             storeCollectionReferenceItem(valueObject);
         }
     }
-    const popupDiv = document.createElement("div");
-    popupDiv.appendChild(document.createTextNode("Finished updating " + collectionsElements.length + " collection info items."));
-    //popupDiv.setAttribute("style", "");
-    document.getElementsByTagName("body")[0].appendChild(popupDiv);
-    setTimeout(function(popupDiv) {
-        console.log("TODO: find a way to hide the popup after a few seconds")
-        // popupDiv.setAttribute("style", "hidden");
-    },5000);
 }
 
 (function() {
